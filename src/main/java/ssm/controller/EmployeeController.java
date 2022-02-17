@@ -21,6 +21,7 @@ public class EmployeeController {
         List<Employee> emps = employeeService.getEmps();
         map.put("allEmps",emps);
         System.out.println("git2");
+        System.out.println("git3");
         return "list";
     }
 }
