@@ -22,6 +22,7 @@ public class EmployeeController {
         map.put("allEmps",emps);
         System.out.println("git2");
         System.out.println("git3");
+        System.out.println("master test");
         return "list";
     }
 }
