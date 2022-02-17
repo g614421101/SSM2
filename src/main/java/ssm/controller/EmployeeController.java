@@ -20,6 +20,7 @@ public class EmployeeController {
     public String emps(Map<String,Object> map){
         List<Employee> emps = employeeService.getEmps();
         map.put("allEmps",emps);
+        System.out.println("git2");
         return "list";
     }
 }
